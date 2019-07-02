@@ -277,14 +277,15 @@ function ProduceList(){
     <table class="table">
     <thead>
     <tr>
-        </tr>
 
+<th>
 
     {availableProduce.map((produce, index)=>
-      <Produce month=<th>{produce.month}</th>selection={produce.selection}/>
+      <Produce month={produce.month} selection={produce.selection}/>
     )}
+    </th>
 
-
+    </tr>
     </thead>
     </table>
   );

@@ -51,6 +51,7 @@ function MarketScheduleList(){
     <th>Location</th>
     <th>Hours</th>
     <th>Booth</th>
+    <th></th>
     </tr>
     </thead>
 <tbody>

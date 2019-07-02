@@ -6,6 +6,9 @@ function MarketSchedule(props){
   let styling = {
     backgroundColor: '#fab1a0'
   }
+
+
+
   return(
 
 
@@ -15,6 +18,7 @@ function MarketSchedule(props){
     <td>{props.location}</td>
     <td>{props.hours}</td>
     <td>{props.booth}</td>
+    <td><button className="btn btn-danger">Delete</button></td>
 
     </tr>
 
